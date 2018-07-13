@@ -79,3 +79,6 @@ process.on('unhandledRejection', err => {
   // Start the bot
   main.start();
 })();
+
+var port = process.env.PORT || 5000;
+
